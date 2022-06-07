@@ -1,0 +1,65 @@
+=================================================================
+==1368==ERROR: AddressSanitizer: stack-use-after-scope on address 0x7f4add9fed40 at pc 0x555fcb64afd4 bp 0x7f4adc71da80 sp 0x7f4adc71da70
+READ of size 48 at 0x7f4add9fed40 thread T3
+    #0 0x555fcb64afd3 in thread_func_hash_and_blockchain_server_part /home/sergey/Messanger_Source_37_i2pd/C_part.c:3106
+    #1 0x7f4ae1a5f608 in start_thread (/lib/x86_64-linux-gnu/libpthread.so.0+0x9608)
+    #2 0x7f4ae1058292 in __clone (/lib/x86_64-linux-gnu/libc.so.6+0x122292)
+
+Address 0x7f4add9fed40 is located in stack of thread T1 at offset 272 in frame
+    #0 0x555fcb64bbb0 in hash_and_blockchain_server_part /home/sergey/Messanger_Source_37_i2pd/C_part.c:3395
+
+  This frame has 7 object(s):
+    [48, 52) 'clen' (line 3400)
+    [64, 72) 'thread1' (line 3442)
+    [96, 112) 'tv' (line 3414)
+    [128, 144) 'serv_addr' (line 3401)
+    [160, 176) 'cli_addr_global' (line 3401)
+    [192, 232) 'mutex' (line 3404)
+    [272, 320) 'struct1' (line 3452) <== Memory access at offset 272 is inside this variable
+HINT: this may be a false positive if your program uses some custom stack unwind mechanism, swapcontext or vfork
+      (longjmp and C++ exceptions *are* supported)
+Thread T1 created by T0 here:
+    #0 0x7f4ae1bdc805 in pthread_create (/lib/x86_64-linux-gnu/libasan.so.5+0x3a805)
+    #1 0x555fcb76b880 in main /home/sergey/Messanger_Source_37_i2pd/Messenger.cpp:422
+    #2 0x7f4ae0f5d0b2 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x270b2)
+
+SUMMARY: AddressSanitizer: stack-use-after-scope /home/sergey/Messanger_Source_37_i2pd/C_part.c:3106 in thread_func_hash_and_blockchain_server_part
+Shadow bytes around the buggy address:
+  0x0fe9dbb37d50: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0fe9dbb37d60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0fe9dbb37d70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0fe9dbb37d80: 00 00 00 00 00 00 f1 f1 f1 f1 f1 f1 04 f2 00 f2
+  0x0fe9dbb37d90: f2 f2 00 00 f2 f2 00 00 f2 f2 00 00 f2 f2 00 00
+=>0x0fe9dbb37da0: 00 00 00 f2 f2 f2 f2 f2[f8]f8 f8 f8 f8 f8 f3 f3
+  0x0fe9dbb37db0: f3 f3 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0fe9dbb37dc0: 00 00 f1 f1 f1 f1 00 00 f3 f3 00 00 00 00 00 00
+  0x0fe9dbb37dd0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0fe9dbb37de0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0fe9dbb37df0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+  Shadow gap:              cc
+Thread T3 created by T1 here:
+    #0 0x7f4ae1bdc805 in pthread_create (/lib/x86_64-linux-gnu/libasan.so.5+0x3a805)
+    #1 0x555fcb64c164 in hash_and_blockchain_server_part /home/sergey/Messanger_Source_37_i2pd/C_part.c:3459
+    #2 0x555fcb64b9fc in hash_and_blockchain_server_part_function /home/sergey/Messanger_Source_37_i2pd/C_part.c:3348
+    #3 0x7f4ae1a5f608 in start_thread (/lib/x86_64-linux-gnu/libpthread.so.0+0x9608)
+
+==1368==ABORTING

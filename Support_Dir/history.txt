@@ -1,0 +1,2000 @@
+ping 8.8.8.8
+shutdown -h now
+ls
+cd M8
+cd Messanger_Source_18
+ls
+nano log.txt 
+ls -la
+nano log.txt 
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_18/ /home/sergey/
+ping 8.8.8.8
+sudo python3 Remote_controller_MSG_whole.py 192.168.42.188 4004 > log.txt
+cd Messanger_Source_18
+ping 8.8.8.8
+sudo python3 Remote_controller_MSG_whole.py 192.168.42.188 4006 > log.txt
+ping 8.8.8.8
+shutdown -h now
+sergey
+user
+cd Messanger_Source_18
+nano log.txt 
+cd Messanger_Source_18
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_18/ /home/sergey/
+cd
+sudo chmod 777 -R Messanger_Source_18
+ping 8.8.8.8
+shutdown -h now
+cd Messanger_Source_18
+sudo python3 Remote_controller_MSG_whole.py 192.168.42.188 5000 > log.txt
+sudo python3 Remote_controller_MSG_whole.py 192.168.42.188 5001 > log.txt
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_18/ /home/sergey/
+cd
+sudo chmod 777 -R Messanger_Source_18
+shutdown -h now
+cd Messanger_Source_18
+ping 8.8.8.8
+sudo python3 Remote_controller_MSG_whole.py 192.168.42.188 5003 > log.txt
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_18/ /home/sergey/
+cd
+sudo chmod 777 -R Messanger_Source_18
+cd Messanger_Source_18
+make clean
+make
+shutdown -h now
+cd Messanger_Source_18
+nano log.txt 
+cd Messanger_Source_22
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_23/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_23
+cd Messanger_Source_22
+cd Messanger_Source_23
+ls -la
+make clean
+make
+cd Messanger_Source_23
+shutdown -h now
+ls -la
+ip 
+ip a
+ping 8.8.8.8
+cd Messanger_Source_23
+ls -la
+cd Messanger_Source_22
+cd Messanger_Source_23
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+clear
+ip a
+./Messenger 192.168.42.188 2000 2001 2002 2003 2004 user1
+make clean
+make
+./Messenger 192.168.42.188 3000 3001 3002 3003 3004 user1
+sudo nano /etc/netplan/00-installer-config.yaml
+cd Messanger_Source_23
+cp m5.txt_2 m5.txt
+echo 7 > input_control.txt 
+sudo cp /media/sf_shared_linux_dir/Key.txt /home/sergey/Messanger_Source_23/Key.txt
+ping 8.8.8.8
+shutdown -h now
+cd Messanger_Source_23
+sudo python3 Remote_controller_MSG_whole.py 192.168.42.188 4000
+cd fbgrab-master/
+ls
+make
+cd
+cd Messanger_Source_23
+sudo python3 Remote_controller_MSG_whole.py 192.168.42.188 4000
+cd Messanger_Source_23
+./netserver 2000
+./netserver 3000
+cd Messanger_Source_23
+./Messenger 192.168.42.188 3000 3001 3002 3003 3004 user1
+cd Messanger_Source_23
+./netserver 3000
+shutdown -h now
+cd M23
+cd Messanger_Source_23
+cp m5.txt_2 m5.txt
+sudo cp /media/sf_shared_linux_dir/Key.txt /home/sergey/Messanger_Source_23/Key.txt
+ping 8.8.8.8
+cd Messanger_Source_23
+./Messenger 192.168.42.188 3000 3001 3002 3003 3004 user1
+cd Messanger_Source_23
+./netserver 3000
+cd Messanger_Source_23
+cp m5.txt_2 m5.txt
+shutdown -h noe\
+shutdown -h now
+cd Messanger_Source_23
+sudo python3 Remote_controller_MSG_whole.py 192.168.42.188 4000
+cd Messanger_Source_23
+cd Messanger_Source_23
+cd Messanger_Source_23
+ping 8.8.8.8
+ip a
+ping 192.168.42.129
+sudo netplan --debug generate
+sudo netplan --debug apply
+ping 8.8.8.8
+shutdown -h now
+ping 8.8.8.8
+cd Messanger_Source_23
+sudo python3 Remote_controller_MSG_whole.py 192.168.42.188 4000
+jhfhg
+clear
+./Messenger 192.168.42.188 3000 3001 3002 3003 3004 user1
+shutdown -h now
+cd Messanger_Source_23
+./netserver 3000
+cd Messanger_Source_23
+sudo nano /etc/netplan/00-installer-config.yaml
+ip a
+sudo netplan --debug generate
+sudo netplan --debug apply
+ping 8.8.8.8
+ping 192.168.0.1
+sudo nano /etc/netplan/00-installer-config.yaml
+sudo netplan --debug generate
+sudo netplan --debug apply
+ping 192.168.0.1
+shutdown -h now
+cd Messanger_Source_23
+ping 192.168.0.1
+
+./Messenger 192.168.0.1 3000 3001 3002 3003 3004 user1
+reboot
+cd Messanger_Source_23
+./Messenger 192.168.0.1 3000 3001 3002 3003 3004 user1
+reboot
+cd Messanger_Source_23
+cp m5.txt_2 m5.txt
+ls
+cp m5.txt_2 m5.txt
+cp m3.txt_2 m3.txt
+ls -la
+cd Messanger_Source_23
+./Messenger 192.168.0.1 3000 3001 3002 3003 3004 user1
+shutdown -h now
+cd Messanger_Source_23
+ls -la
+cd M23
+cd Messanger_Source_23
+ls -la
+./gen_key_2
+echo 7 > input_control.txt 
+ip a
+ping 8.8.8.8
+sudo nano /etc/netplan/00-installer-config.yaml
+ping 8.8.8.8
+ip a
+ping 192.168.18.3
+sudo nano /etc/netplan/00-installer-config.yaml
+sudo netplan --debug generate
+sudo netplan --debug apply
+ping 192.168.18.3
+ping 8.8.8.8
+sudo nano /etc/netplan/00-installer-config.yaml
+sudo netplan --debug generate
+sudo netplan --debug apply
+ping 8.8.8.8
+sudo nano /etc/netplan/00-installer-config.yaml
+sudo netplan --debug generate
+sudo netplan --debug apply
+ping 8.8.8.8
+shutdown -h now
+ping 8.8.8.8
+cd /etc/netplan
+ls -l
+sudo nano 00-installer-config.yaml_INTERNET 
+sudo nano 00-installer-config.yaml_1
+sudo cp 00-installer-config.yaml 00-installer-config.yaml_2
+sudo mv 00-installer-config.yaml_1 00-installer-config.yaml
+sudo netplan --debug generate
+sudo netplan --debug apply
+ping 8.8.8.8
+reboot
+ping 8.8.8.8
+sudo nano 00-installer-config.yaml
+sudo nano 00-installer-config.yaml_1
+cd /etc/netplan
+ls
+sudo nano 00-installer-config.yaml
+ip a
+sudo nano 00-installer-config.yaml
+ip a
+sudo netplan --debug generate
+sudo netplan --debug apply
+ping 8.8.8.8
+sudo nano 00-installer-config.yaml
+ip a
+sudo nano 00-installer-config.yaml
+sudo nano 00-installer-config.yaml_2
+sudo nano 00-installer-config.yaml
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_23/ /home/sergey/
+cd
+sudo chmod 777 -R Messanger_Source_23
+cd Messanger_Source_23
+CD
+cd
+shutdown -h now
+ip a
+shutdown -h now
+ip a
+sudo nano /etc/netplan/00-installer-config.yaml
+clear
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_23/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_23
+cd Messanger_Source_23/fbgrab-master/
+make
+cd ..
+make clean
+make
+clear
+./Messenger 192.168.42.187 2000 2001 2002 2003 2004 user1
+clear
+./Messenger 192.168.42.187 2000 2001 2002 2003 2004 user1
+./Messenger 10.0.2.5 2000 2001 2002 2003 2004 user1
+cd Messanger_Source_23
+./netserver 2000
+ping 192.168.42.187
+./netserver 2000
+cd Messanger_Source_23
+sudo python3 Remote_controller_MSG_whole.py 192.168.42.187 2005
+sudo python3 Remote_controller_MSG_whole.py 10.0.2.5 2005
+ip a
+sudo python3 Remote_controller_MSG_whole.py 10.0.2.15 2005
+make clean
+make
+sudo cp -R /media/sf_NEW/Messanger_Source_23/Key.txt /home/sergey/Messanger_Source_23/Key.txt 
+sudo cp -R /media/sf_NEW/Key.txt /home/sergey/Messanger_Source_23/Key.txt 
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_23/Key.txt /home/sergey/Messanger_Source_23/Key.txt 
+shutdown -h now
+ping 8.8.8.8
+ping 192.168.42.129
+ip a
+ping 8.8.8.8
+make clean
+cd Messanger_Source_23
+make clean
+make
+./Messenger 192.168.42.187 2000 2001 2002 2003 2004 user1
+./Messenger 10.0.2.15 2000 2001 2002 2003 2004 user1
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_23/ /home/sergey/
+reboot
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_23/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_23
+shutdown -h now
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_23/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_23
+cd Messanger_Source_23
+./gen_key_2
+./gen_key_2 1000 output_key.txt
+ls -l
+cat output_key.txt 
+nano output_key.txt 
+nano m5.txt
+ls -l output_key.txt 
+./gen_key_2 2000 output_key.txt
+ls -l output_key.txt 
+shutdown -h now
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_23/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_23
+cd Messanger_Source_23
+make clean
+make
+ip a
+cd /etc/netplan
+ls -l
+sudo mv 00-installer-config.yaml 00-installer-config.yaml_NAT
+sudo mv 00-installer-config.yaml_INSIDE_NET 00-installer-config.yaml
+sudo netplan --debug generate
+sudo netplan --debug apply
+ip a
+ping 192.168.0.1
+ping 192.168.0.4
+cd
+cd Messanger_Source_23
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+reboot
+cd Messanger_Source_23
+echo 7 > input_control.txt 
+cd Messanger_Source_23
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+reboot
+cd Messanger_Source_23
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+reboot
+cd Messanger_Source_23
+cp m5.txt_2 m5.txt
+cd Messanger_Source_23
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+shutdown -h now
+cd Messanger_Source_23
+cp m5.txt_2 
+cp m5.txt_2 m5.txt
+cp m3.txt_2 m3.txt
+cd M23
+cd Messanger_Source_23\
+cd Messanger_Source_23
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+ls -l
+ls
+cat user_list_client.txt 
+make clean
+make
+ls
+reboot
+ip a
+cd Messanger_Source_23
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+reboot
+cd Messanger_Source_23
+cat user_list_client.txt 
+cd Messanger_Source_23
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+make clean
+make
+reboot
+cd Messanger_Source_23
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+reboot
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_24/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_24
+cd Messanger_Source_24
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+cd fbgrab-master/
+cd ..
+make clean
+make
+cd fbgrab-master/
+make
+cd  ..
+cd
+cd Messanger_Source_24
+cd ..
+shutdown -h now
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+cd
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+reboot
+cd Messanger_Source_26
+ls -l
+sudo cp db1.db /media/sf_shared_linux_dir/
+cd M26
+cd Messanger_Source_26
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+cd
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+reboot
+cd Messanger_Source_26
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+cd
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+reboot
+cd Messanger_Source_26
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+shutdown -h now
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make > make_log.txt 2>&1
+make clean
+make
+nano make_log.txt 
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+make > make_log.txt 2>&1
+nano make_log.txt 
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+make > make_log.txt 2>&1
+nano make_log.txt 
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+make > make_log.txt 2>&1
+nano make_log.txt 
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+nano make_log.txt 
+make > make_log.txt 2>&1
+nano make_log.txt 
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+make > make_log.txt 2>&1
+nano make_log.txt 
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make > make_log.txt 2>&1
+nano make_log.txt 
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make > make_log.txt 2>&1
+nano make_log.txt 
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make > make_log.txt 2>&1
+nano make_log.txt 
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make > make_log.txt 2>&1
+nano make_log.txt 
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clen
+make clean
+make > make_log.txt 2>&1
+nano make_log.txt 
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+cd Messanger_Source_26
+ls -l
+sudo cp db1.db /media/sf_shared_linux_dir/
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+reboot
+cd Messanger_Source_26
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+reboot
+cd Messanger_Source_26
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+reboot
+cd Messanger_Source_26
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+reboot
+cd Messanger_Source_26
+sudo cp db1.db /media/sf_shared_linux_dir/
+shutdown -h now
+cd Messanger_Source_26
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+cd
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+reboot
+cd Messanger_Source_26
+sudo cp db1.db /media/sf_shared_linux_dir/
+cd Messanger_Source_26
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+reboot
+cd Messanger_Source_26
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+reboot
+cd Messanger_Source_26
+sudo cp db1.db /media/sf_shared_linux_dir/
+cd Messanger_Source_26
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+reboot
+cd Messanger_Source_26
+sudo cp db1.db /media/sf_shared_linux_dir/
+cd Messanger_Source_26
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+reboot
+cd Messanger_Source_26
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+reboot
+cd Messanger_Source_26
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+cp db1.db ..
+cp db1.db.enc ../
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+cp ../db1.db.enc ./
+reboot
+cd Messanger_Source_26
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+reboot
+cd Messanger_Source_26
+sudo cp db1.db /media/sf_shared_linux_dir/
+cat user_list_client.txt 
+nano user_list_client.txt 
+cd Messanger_Source_26
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+a
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+cd
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+make > make_log.txt &2>1
+make > make_log.txt 2>&1
+nano make_log.txt 
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+cd
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+make > make_log.txt 2>&1
+nano make_log.txt 
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+cd
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+cd
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+reboot
+cd Messanger_Source_26
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+cd
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+reboot
+cd Messanger_Source_26
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+cd
+sudo chmod 777 -R Messanger_Source_26
+cd Messanger_Source_26
+make clean
+make
+reboot
+cd Messanger_Source_26
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_26/ /home/sergey/
+cd Messanger_Source_26
+make clean
+make
+reboot
+cd M26
+cd Messanger_Source_26
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+shutdown -h now\
+shutdown -h now
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_27/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_27
+cd Messanger_Source_27
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+shutdown -h now
+cd Messanger_Source_27
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_27/ /home/sergey/
+cd Messanger_Source_27
+make clean
+cd
+sudo chmod 777 -R Messanger_Source_27
+cd Messanger_Source_27
+make clean
+make
+make > make_log.txt 2>&1
+nano make_log.txt 
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_27/ /home/sergey/
+cd
+sudo chmod 777 -R Messanger_Source_27
+cd Messanger_Source_27
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+make clean
+make
+reboot
+cd Messanger_Source_27
+sudo cp db1.db /media/sf_shared_linux_dir/
+cd Messanger_Source_27
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_27/ /home/sergey/
+cd
+sudo chmod 777 -R Messanger_Source_27
+cd Messanger_Source_27
+make clean
+make
+reboot
+cd Messanger_Source_27
+sudo cp db1.db /media/sf_shared_linux_dir/
+cd Messanger_Source_27
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_27/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_27
+cd Messanger_Source_27
+make clean
+make
+reboot
+cd Messanger_Source_27
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+reboot
+cd Messanger_Source_27
+sudo cp db1.db /media/sf_shared_linux_dir/
+cd Messanger_Source_27
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_27/ /home/sergey/
+cd
+sudo chmod 777 -R Messanger_Source_27
+cd Messanger_Source_27
+make clean
+make
+nano make_log.txt 2>&1
+make > make_log.txt 2>&1
+nano make_log.txt 2>&1
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_27/ /home/sergey/
+cd
+sudo chmod 777 -R Messanger_Source_27
+cd Messanger_Source_27
+make clean
+make
+nano make_log.txt 2>&1
+make > make_log.txt 2>&1
+nano make_log.txt 2>&1
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_27/ /home/sergey/
+cd
+sudo chmod 777 -R Messanger_Source_27
+cd Messanger_Source_27
+make clean
+make
+reboot
+cd Messanger_Source_27
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+reboot
+cd Messanger_Source_27
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+reboot
+cd Messanger_Source_27
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_27/ /home/sergey/
+cd
+sudo chmod 777 -R Messanger_Source_27
+cd Messanger_Source_27
+make clean
+make
+make > make_log.txt 2>&1
+nano make_log.txt 
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_27/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_27
+cd Messanger_Source_27
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+reboot
+cd Messanger_Source_27
+cd M27
+cd Messanger_Source_27
+cp m1_2.txt m1.txt
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_27/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_27
+cd Messanger_Source_27
+make clean
+make
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_27/ /home/sergey/
+cd
+sudo chmod 777 -R Messanger_Source_27
+cd Messanger_Source_27
+make clean
+make
+reboot
+cd M27
+cd Messanger_Source_27
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+reboot
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_27/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_27
+cd Messanger_Source_27
+make clean
+make
+make > make_log.txt 2>&1
+nano make_log.txt 
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_27/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_27
+cd Messanger_Source_27
+make clean
+make
+reboot
+cd Messanger_Source_27
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_27/ /home/sergey/
+cd
+sudo chmod 777 -R Messanger_Source_27
+cd Messanger_Source_27
+make
+make clean
+make
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_27/ /home/sergey/
+cd
+sudo chmod 777 -R Messanger_Source_27
+cd Messanger_Source_27
+make clean
+make
+reboot
+cd Messanger_Source_27
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+shutdown -h now
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29
+cd Messanger_Source_29
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1
+shutdown -h now
+cd Messanger_Source_29
+ls
+cd INPUT_FILES/
+ls
+sudo cp Date__6_9_2021_Time__5_48_54_FILE_INPUT.txt /media/sf_shared_linux_dir/from_clon_1_ing.jpg
+cd ..
+ls
+cd INPUT_FILES/
+ls
+ls -l
+cd ..
+shutdown -h now
+cd /etc/netplan/
+ls
+sudo cp 00-installer-config.yaml 00-installer-config.yaml_INSIDe_NET
+sudo mv 00-installer-config.yaml_NAT 00-installer-config.yaml
+sudo nano 00-installer-config.yaml
+sudo netplan --debug generate
+sudo netplan --debug apply
+ip a
+ping 8.8.8.8.
+cd
+cd /etc/netplan
+sudo nano 00-installer-config.yaml
+cd
+sudo apt-get install i2pd
+sudo systemctl status i2d
+sudo systemctl status i2pd
+sudo systemctl enable i2pd
+sudo systemctl stop i2pd
+sudo systemctl status i2d
+sudo systemctl status i2pd
+[A
+sudo systemctl start i2pd
+sudo systemctl status i2pd
+
+shutdown -h now
+cd /etc/netplan
+ls
+nano 00-installer-config.yaml_INTERNET 
+shutdown -h now
+sudo systemctl status i2pd
+ping 8.8.8.8
+wget -O i2pd.deb https://github.com/PurpleI2P/i2pd/release/download/2.39.0/i2pd_2.39.0-1focal2_amd64.deb
+wget -O i2pd.deb https://github.com/PurpleI2P/i2pd/releases/download/2.39.0/i2pd_2.39.0-1focal2_amd64.deb
+sudo systemctl status i2pd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user2 TRUE
+i2pd -version
+cd
+sudo apt install i2pd.deb
+wget -O i2pd.deb https://github.com/PurpleI2P/i2pd/release/download/2.39.0/i2pd_2.39.0-1focal2_amd64.deb
+wget -O i2pd.deb https://github.com/PurpleI2P/i2pd/releases/download/2.39.0/i2pd_2.39.0-1focal2_amd64.deb
+sudo apt install i2pd.deb
+ls
+sudo apt install ./i2pd.deb
+i2pd -version
+sudo systemctl status i2pd
+sudo systemctl restart i2pd
+sudo systemctl status i2pd
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user2 TRUE
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+reboot
+cd /etc/netplan/
+nano 00-installer-config.yaml
+cd Messanger_Source_29_i2pd/
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user2 TRUE
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE
+make clean
+make
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+shutdown -h now
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE
+cds
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE
+cd
+reboot
+cd Messanger_Source_29_i2pd/
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE
+cd
+clear
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+cd Messanger_Source_29_i2pd/cd
+cd
+hsutdown -h now
+shutdown -h now
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE
+cd
+shutdown -h now
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+reboot
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE
+sudo dpkg-reconfigure console-setup
+sudo nano /etc/rc.local
+sudo systemctl restart i2pd
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+sudo systemctl restart i2pd
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE
+cd
+cd Messanger_Source_29_i2pd/
+make clean
+make
+shutdown -h now
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE
+cd\
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE
+cd
+reboot
+cd /etc/i2pd/
+ls -l
+cat subscriptions.txt 
+cd /var/tmpxs
+pkill i2pd
+sudo pkill i2pd
+cd
+sudo systemctl status i2pd
+sudo pkill i2pd
+sudo systemctl status i2pd
+sudo systemctl stop i2pd
+sudo systemctl status i2pd
+sudo systemctl start i2pd
+sudo systemctl status i2pd
+cd Messanger_Source_29_i2pd/
+cd
+sudo systemctl stop i2pd
+sudo systemctl start i2pd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE
+sudo rm /var/lib/i2pd/destinations/*
+cd
+sudo systemctl status i2pd
+q
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+make > make_log.txt 2>&1
+nano make_log.txt 
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE
+sudo systemctl stop i2pd
+sudo systemctl start i2pd
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE
+cd
+sudo nao /etc/i2pd/i2pd.conf 
+sudo nano /etc/i2pd/i2pd.conf 
+sudo systemctl restart i2pd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE
+ls
+reboot
+cd Messanger_Source_29_i2pd/
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7657
+sudo nano /etc/i2pd/i2pd.conf 
+sudo systemctl restart i2pd
+make clean
+make
+shutdown -h now
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+make > make_log.txt 2>&1
+nano make_log.txt 
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+make > make_log.txt 2>&1
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+make > make_log.txt 2>&1
+nano make_log.txt 
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make > make_log.txt 2>&1
+nano make_log.txt 
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make > make_log.txt 2>&1
+nano make_log.txt 
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_
+cd Messanger_Source_29_i2pd/
+make clean
+make > make_log.txt 2>&1
+nano make_log.txt 
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7657
+sudo systemctl status i2pd
+sudo systemctl restart i2pd
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7657
+cd
+reboot
+sudo nano /etc/i2pd/i2pd.conf 
+sudo systemctl restart i2pd
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+Cd
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+make > make_log.txt 2>&1
+nano make_log.txt 
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+reboot
+cd Messanger_Source_29_i2pd/
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+make clean
+make
+reboot
+cd Messanger_Source_29_i2pd/
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+reboot
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+make > make_log.txt 2>&1
+nano make_log.txt 
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+shutdown -h now
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+cd Messanger_Source_29_i2pd/
+cd
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+cd
+reboot
+cd Messanger_Source_29_i2pd/
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+reboot
+cd Messanger_Source_29_i2pd/
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+shutdown -h now
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_29_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_29_i2pd/
+cd Messanger_Source_29_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_30_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_30_i2pd/
+cd Messanger_Source_30_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_30_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_30_i2pd/
+cd Messanger_Source_30_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_30_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_30_i2pd/
+cd Messanger_Source_30_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_30_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_30_i2pd/
+cd Messanger_Source_30_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+cd Messanger_Source_30_i2pd/
+make clean
+make
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_30_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_30_i2pd/
+cd Messanger_Source_30_i2pd/
+make clean
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_30_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_30_i2pd/
+cd Messanger_Source_30_i2pd/
+make clean
+make
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_30_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_30_i2pd/
+cd Messanger_Source_30_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_30_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_30_i2pd/
+cd Messanger_Source_30_i2pd/
+make clean
+make
+reboot
+cd Messanger_Source_30_i2pd/
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_30_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_30_i2pd/
+cd Messanger_Source_30_i2pd/
+make clean
+make
+reboot
+cd Messanger_Source_30_i2pd/
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_30_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_30_i2pd/
+cd Messanger_Source_30_i2pd/
+make clean
+make
+reboot
+cd Messanger_Source_30_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+shutdown -h now
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_31_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_31_i2pd/
+cd Messanger_Source_31_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_31_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_31_i2pd/
+cd Messanger_Source_31_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_31_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_31_i2pd/
+cd Messanger_Source_31_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd /etc/i2pd
+ls
+clear
+sudo nano i2pd.conf 
+sudo systemctl restart i2pd
+sudo systemctl status i2pd
+cd
+cd Messanger_Source_31_i2pd/
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd Messanger_Source_31_i2pd/
+cd servers_together/
+./ssl_server_send 2004
+reboot\
+reboot
+cd Messanger_Source_31_i2pd/
+cd servers_together/
+cd Store/
+ls
+cd /etc/i2pd/
+ls
+nano i2pd.conf 
+sudo nano i2pd.conf 
+sudo systemctl restart i2pd
+cd
+nano i2pd.conf 
+cd /etc/i2pd/
+ls
+sudo nan i2pd.conf 
+sudo nano i2pd.conf 
+sudo systemctl restart i2pd
+cd
+cd Messanger_Source_31_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+gpg --fetch-keys https://neilalexander.s3.dualstack.eu-west-2.amazonaws.com/deb/key.txt
+gpg --export 569130E8CA20FBC4CB3FDE555898470A764B32C9 | sudo apt-key add -
+sudo apt-get update
+echo 'deb http://neilalexander.s3.dualstack.eu-west-2.amazonaws.com/deb/ debian yggdrasil' | sudo tee /etc/apt/sources.list.d/yggdrasil.list
+sudo apt-get update
+sudo apt-get install yggdrasil
+sudo nano /etc/yggdrasil.conf 
+sudo systemctl stop yggdrasil
+sudo systemctl status yggdrasil
+sudo systemctl start yggdrasil
+sudo systemctl status yggdrasil
+sudo systemctl enable yggdrasil
+sudo systemctl status yggdrasil
+ip a
+sudo nano /etc/yggdrasil.conf 
+clear
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_31_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_31_i2pd/
+cd Messanger_Source_31_i2pd/
+make clean
+make
+./Messenger sadasd
+cd
+cd Messanger_Source_31_i2pd/
+cd servers_together/
+./ssl_server_receive 2003
+cd Messanger_Source_31_i2pd/
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_31_i2pd/ /home/sergey/
+cd Messanger_Source_31_i2pd/
+cd servers_together/
+./ssl_server_receive 2003
+cd Messanger_Source_31_i2pd/
+cd servers_together/
+./ssl_server_send 2004
+reboot
+cd Messanger_Source_31_i2pd/
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_31_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_31_i2pd/
+cd Messanger_Source_31_i2pd/
+cd servers_together/
+./ssl_server_send 2004
+shutdown -h now
+sergey
+user
+journalctl --disk-usage
+sudo journalctl --vacuum-size=5M
+journalctl --disk-usage
+shutdown -h now
+cd Messanger_Source_31_i2pd/servers_together/
+./ssl_server_send 2004
+exit
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_31_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_31_i2pd/
+cd Messanger_Source_31_i2pd/
+make clean
+make
+cd servers_together/
+./ssl_server_receive 2003
+exit
+journalctl --disk-usage
+cd ~/.cache/
+ls
+cd
+cd .local/
+ls
+cd share/
+ls
+cd nano/
+ls
+ls -l search_history 
+sudo find / -name "Trash"
+cd..
+cd ..
+cd .cache/
+ls
+cd ..
+l
+ls -la
+du
+du -h /var | sort -h
+du -h /var | sort -h | tee du_log.txt
+du -h /var | sort -h  > du_log.txt
+sudo du -h /var | sort -h  > du_log.txt
+nano du_log.txt 
+sudo du -h / | sort -h  > du_log.txt
+nano du_log.txt 
+du -sh /var/cache/
+sudo du -sh /var/cache/
+ls /
+ls -la /
+cd /home
+sudo du -sh /home
+ls -la
+cd sergey/
+ls -la
+rm boost_1_74_0.tar.gz 
+cd .cache/
+ls
+ls -l motd.legal-displayed 
+cd ..
+cd .local/
+ls
+cd share/
+ls
+cd nano/
+ls
+ls -l
+cd ..
+cd
+ls -l
+du boost_1_74_0/
+du -./
+du ./
+du -sh ./
+du -sh ./boost_1_74_0/
+clear
+shutdown -h now
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_32_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_32_i2pd/
+cd Messanger_Source_32_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+reboot
+cd Messanger_Source_32_i2pd/
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+reboot
+cd Messanger_Source_32_i2pd/
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+shutdown -h now
+cd Messanger_Source_32_i2pd/servers_together/
+./ssl_server_send 2004
+cd Messanger_Source_32_i2pd/servers_together/
+./ssl_server_send 2004
+exit
+cd Messanger_Source_32_i2pd/servers_together/
+./ssl_server_receive 2003
+exit
+cd Messanger_Source_32_i2pd/servers_together/
+./ssl_server_receive 2003
+ls
+./ssl_server_receive 2003
+cd
+exit
+eeeeeexit
+exit
+cd Messanger_Source_32_i2pd/servers_together/
+./ssl_server_send 2004
+cd
+cd .local/
+ls
+cd share/
+ls
+cd du
+cd nano/
+ls
+ls -l
+cd ..
+cd .cache/
+ls
+ls -l motd.legal-displayed 
+cd /
+ls
+cd media/
+ls
+journalctl --disk-usage
+exit
+eeexit
+exi
+exit
+cd
+exit
+cd Messanger_Source_32_i2pd/servers_together/
+./ssl_server_receive 2003
+exit
+cd Messanger_Source_32_i2pd/servers_together/
+./ssl_server_send 2004
+exit
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_32_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_32_i2pd/
+cd Messanger_Source_32_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+cd Messanger_Source_32_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+9
+make clean
+make
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_32_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_32_i2pd/
+cd Messanger_Source_32_i2pd/
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_32_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_32_i2pd/
+cd Messanger_Source_32_i2pd/
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+make clean
+make
+sudo systemctl restart i2pd
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+sudo systemctl restart i2pd
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_32_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_32_i2pd/
+cd Messanger_Source_32_i2pd/
+sudo systemctl restart i2pd
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_32_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_32_i2pd/
+cd Messanger_Source_32_i2pd/
+sudo systemctl restart i2pd
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_32_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_32_i2pd/
+cd Messanger_Source_32_i2pd/
+sudo systemctl restart i2pd
+make clean
+make
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_32_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_32_i2pd/
+cd Messanger_Source_32_i2pd/
+sudo systemctl restart i2pd
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+sudo systemctl restart i2pd
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+shutdown -h now
+sudo systemctl restart i2pd
+cd Messanger_Source_32_i2pd/BIG_FILES_OUTPUT/
+nano f.txt
+ls
+rm f.txt_ENC 
+cd ..
+ls 
+cd Messanger_Source_32_i2pd/BIG_FILES_OUTPUT/
+nano f.txt
+ls
+rm f.txt
+ls
+rm f.txt_ENC 
+nano f.txt
+ls
+cd ../OUTPUT_FILES/
+ls
+ls -l f.txt_REF 
+cd ../
+ls
+echo 3 >input_control.txt 
+echo user2 >input_control.txt 
+f.txt_REF
+echo f.txt_REF >input_control.txt 
+ls -l f.txt_REF 
+cd Messanger_Source_32_i2pd/servers_together/
+./ssl_server_send 2004
+exit
+cd Messanger_Source_32_i2pd/servers_together/
+./ssl_server_receive 2003
+exit
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_32_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_32_i2pd/
+cd Messanger_Source_32_i2pd/
+sudo systemctl restart i2pd
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+cd Messanger_Source_32_i2pd/
+make clean
+make
+sudo systemctl restart i2pd
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+sudo cp -R /media/sf_shared_linux_dir/Messanger_Source_32_i2pd/ /home/sergey/
+sudo chmod 777 -R Messanger_Source_32_i2pd/
+cd Messanger_Source_32_i2pd/
+sudo systemctl restart i2pd
+make clean
+make
+./Messenger 192.168.0.1 2000 2001 2002 2003 2004 user1 TRUE 7656
+cd
+shutdown -h now
+cd Messanger_Source_32_i2pd/
+cd BIG_FILES_OUTPUT/
+nano f.txt
+ls
+cd ../OUTPUT_FILES/
+ls
+ls -l f.txt_REF 
+nano ff.txt
+ls

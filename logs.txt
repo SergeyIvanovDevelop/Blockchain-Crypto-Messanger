@@ -1,0 +1,88 @@
+i2psam.cpp:205:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]
+}
+^
+1 warning generated.
+clang: warning: -lpthread: 'linker' input unused [-Wunused-command-line-argument]
+netserver.c:67:16: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+   fprintf (mf,str);
+               ^~~
+netserver.c:67:16: note: treat the string as an argument to avoid this
+   fprintf (mf,str);
+               ^
+               "%s", 
+netserver.c:98:16: warning: cast to 'int *' from smaller integer type 'unsigned int' [-Wint-to-pointer-cast]
+        int int_ret = (int*)I;
+                      ^
+netserver.c:98:6: warning: incompatible pointer to integer conversion initializing 'int' with an expression of type 'int *'; dereference with * [-Wint-conversion]
+        int int_ret = (int*)I;
+            ^         ~~~~~~~
+                      *
+netserver.c:171:2: error: non-void function 'thread_func2' should return a value [-Wreturn-type]
+        return;
+        ^
+netserver.c:190:5: warning: implicit declaration of function 'inet_ntop' is invalid in C99 [-Wimplicit-function-declaration]
+    inet_ntop(AF_INET, &(cli_addr.sin_addr), str, INET_ADDRSTRLEN);
+    ^
+netserver.c:208:29: warning: implicit declaration of function 'read' is invalid in C99 [-Wimplicit-function-declaration]
+                        real_read_from_newsock = read(newsock, &buf_int[total_recieve], 4);
+                                                 ^
+netserver.c:217:10: warning: implicit declaration of function 'close' is invalid in C99 [-Wimplicit-function-declaration]
+                                        close(newsock);
+                                        ^
+netserver.c:218:10: error: non-void function 'thread_func' should return a value [-Wreturn-type]
+                                        return;
+                                        ^
+netserver.c:241:32: warning: implicit declaration of function 'read' is invalid in C99 [-Wimplicit-function-declaration]
+                real_read_from_newsock = read (newsock, &buf[total_recieve], BUF_SIZE-1);
+                                         ^
+netserver.c:250:9: warning: implicit declaration of function 'close' is invalid in C99 [-Wimplicit-function-declaration]
+                                close(newsock);
+                                ^
+netserver.c:251:9: error: non-void function 'thread_func' should return a value [-Wreturn-type]
+                                return;
+                                ^
+netserver.c:286:8: warning: implicit declaration of function 'write' is invalid in C99 [-Wimplicit-function-declaration]
+                write(newsock, uc_int, 4);
+                ^
+netserver.c:292:8: warning: implicit declaration of function 'close' is invalid in C99 [-Wimplicit-function-declaration]
+                close(newsock);
+                ^
+netserver.c:297:11: warning: expression result unused [-Wunused-value]
+                for (i; i < count_of_user+1; i++)
+                     ^
+netserver.c:345:13: warning: expression result unused [-Wunused-value]
+                for (j;j<count_of_user;j++)
+                     ^
+netserver.c:365:74: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+                printf("Размер файла user_list.txt равен %d\n", size);
+                                                         ~~     ^~~~
+                                                         %ld
+netserver.c:390:10: warning: implicit declaration of function 'write' is invalid in C99 [-Wimplicit-function-declaration]
+                                write(newsock, uc_int, 4);
+                                ^
+netserver.c:405:10: warning: implicit declaration of function 'write' is invalid in C99 [-Wimplicit-function-declaration]
+                                write(newsock, uc_int, 4);
+                                ^
+netserver.c:411:5: warning: implicit declaration of function 'close' is invalid in C99 [-Wimplicit-function-declaration]
+                close(newsock);
+                ^
+netserver.c:262:6: warning: array index 256 is past the end of the array (which contains 256 elements) [-Warray-bounds]
+     buf[BUF_SIZE] = 0;
+     ^   ~~~~~~~~
+netserver.c:181:6: note: array 'buf' declared here
+     char buf[BUF_SIZE];
+     ^
+netserver.c:507:73: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [-Wpointer-sign]
+                int newsock = accept(sock, (struct sockaddr *) &cli_addr_global, &clen);
+                                                                                 ^~~~~
+/usr/include/x86_64-linux-gnu/sys/socket.h:233:28: note: passing argument to parameter '__addr_len' here
+                   socklen_t *__restrict __addr_len);
+                                         ^
+netserver.c:521:8: warning: implicit declaration of function 'inet_ntop' is invalid in C99 [-Wimplicit-function-declaration]
+                 inet_ntop(AF_INET, &(cli_addr_global.sin_addr), str, INET_ADDRSTRLEN);
+                 ^
+netserver.c:534:6: warning: implicit declaration of function 'close' is invalid in C99 [-Wimplicit-function-declaration]
+     close(sock);
+     ^
+20 warnings and 3 errors generated.
+make: *** [Makefile:13: net] Error 1

@@ -1,0 +1,297 @@
+g++ -c i2psam.cpp -o i2psam.o
+i2psam.cpp: In member function ‘int SAM::I2pSocket::write(unsigned char*, int)’:
+i2psam.cpp:205:1: warning: control reaches end of non-void function [-Wreturn-type]
+  205 | }
+      | ^
+g++ gen_key.cpp -o gen_key
+gcc netserver.c -o netserver -lpthread
+netserver.c: In function ‘write_to_file’:
+netserver.c:67:4: warning: format not a string literal and no format arguments [-Wformat-security]
+   67 |    fprintf (mf,str);
+      |    ^~~~~~~
+netserver.c: In function ‘unsigned_char_array_4_to_int’:
+netserver.c:98:16: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   98 |  int int_ret = (int*)I;
+      |                ^
+netserver.c:98:16: warning: initialization of ‘int’ from ‘int *’ makes integer from pointer without a cast [-Wint-conversion]
+netserver.c: In function ‘thread_func2’:
+netserver.c:171:2: warning: ‘return’ with no value, in function returning non-void
+  171 |  return;
+      |  ^~~~~~
+netserver.c:120:8: note: declared here
+  120 | void * thread_func2(void * arg)
+      |        ^~~~~~~~~~~~
+netserver.c: In function ‘thread_func’:
+netserver.c:190:5: warning: implicit declaration of function ‘inet_ntop’ [-Wimplicit-function-declaration]
+  190 |     inet_ntop(AF_INET, &(cli_addr.sin_addr), str, INET_ADDRSTRLEN);
+      |     ^~~~~~~~~
+netserver.c:208:29: warning: implicit declaration of function ‘read’; did you mean ‘fread’? [-Wimplicit-function-declaration]
+  208 |    real_read_from_newsock = read(newsock, &buf_int[total_recieve], 4);
+      |                             ^~~~
+      |                             fread
+netserver.c:217:10: warning: implicit declaration of function ‘close’; did you mean ‘pclose’? [-Wimplicit-function-declaration]
+  217 |          close(newsock);
+      |          ^~~~~
+      |          pclose
+netserver.c:218:10: warning: ‘return’ with no value, in function returning non-void
+  218 |          return;
+      |          ^~~~~~
+netserver.c:176:8: note: declared here
+  176 | void * thread_func(void * arg)
+      |        ^~~~~~~~~~~
+netserver.c:251:9: warning: ‘return’ with no value, in function returning non-void
+  251 |         return;
+      |         ^~~~~~
+netserver.c:176:8: note: declared here
+  176 | void * thread_func(void * arg)
+      |        ^~~~~~~~~~~
+netserver.c:286:8: warning: implicit declaration of function ‘write’; did you mean ‘fwrite’? [-Wimplicit-function-declaration]
+  286 |        write(newsock, uc_int, 4);
+      |        ^~~~~
+      |        fwrite
+netserver.c:365:68: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat=]
+  365 |          printf("Размер файла user_list.txt равен %d\n", size);
+      |                                                                   ~^     ~~~~
+      |                                                                    |     |
+      |                                                                    int   long int
+      |                                                                   %ld
+gcc -c C_part.c -o C_part.o
+C_part.c: In function ‘read_from_file_to_buffer’:
+C_part.c:181:13: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+  181 |             sleep(2);
+      |             ^~~~~
+C_part.c: In function ‘blockchain_from_DB_to_file_c’:
+C_part.c:359:44: warning: passing argument 1 of ‘write_to_file_name_c’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  359 |      int res_write = write_to_file_name_c (buf, new_size_of_transaction, path_to_buffer_file);
+      |                                            ^~~
+C_part.c:121:33: note: expected ‘char *’ but argument is of type ‘const char *’
+  121 | int write_to_file_name_c (char* buf, int size, const char* filename)
+      |                           ~~~~~~^~~
+C_part.c: In function ‘unsigned_char_array_4_to_int’:
+C_part.c:2023:16: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ 2023 |  int int_ret = (int*)I;
+      |                ^
+C_part.c:2023:16: warning: initialization of ‘int’ from ‘int *’ makes integer from pointer without a cast [-Wint-conversion]
+C_part.c: In function ‘thread_func_send_message_server_part’:
+C_part.c:2071:29: warning: implicit declaration of function ‘read’; did you mean ‘fread’? [-Wimplicit-function-declaration]
+ 2071 |    real_read_from_newsock = read(newsock, &buf_int[total_recieve], 4);
+      |                             ^~~~
+      |                             fread
+C_part.c:2078:10: warning: implicit declaration of function ‘inet_ntop’ [-Wimplicit-function-declaration]
+ 2078 |          inet_ntop(AF_INET, &(cli_addr.sin_addr), str, INET_ADDRSTRLEN);
+      |          ^~~~~~~~~
+C_part.c:2081:10: warning: implicit declaration of function ‘close’; did you mean ‘pclose’? [-Wimplicit-function-declaration]
+ 2081 |          close(newsock);
+      |          ^~~~~
+      |          pclose
+C_part.c:2082:10: warning: ‘return’ with no value, in function returning non-void
+ 2082 |          return;
+      |          ^~~~~~
+C_part.c:2044:8: note: declared here
+ 2044 | void * thread_func_send_message_server_part(void * arg)
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C_part.c:2114:9: warning: ‘return’ with no value, in function returning non-void
+ 2114 |         return;
+      |         ^~~~~~
+C_part.c:2044:8: note: declared here
+ 2044 | void * thread_func_send_message_server_part(void * arg)
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C_part.c:2242:16: warning: passing argument 1 of ‘snprintf’ from incompatible pointer type [-Wincompatible-pointer-types]
+ 2242 |       snprintf(last_id_str, length + 1, "%d", my_DB_last_ID_arr[ii]); // по идее в последнем символе и так уже ноль должен быть
+      |                ^~~~~~~~~~~
+      |                |
+      |                const char **
+In file included from C_part.h:3,
+                 from C_part.c:1:
+/usr/include/stdio.h:354:39: note: expected ‘char * restrict’ but argument is of type ‘const char **’
+  354 | extern int snprintf (char *__restrict __s, size_t __maxlen,
+      |                      ~~~~~~~~~~~~~~~~~^~~
+C_part.c:2245:38: warning: passing argument 2 of ‘get_hash_id_container’ from incompatible pointer type [-Wincompatible-pointer-types]
+ 2245 |   get_hash_id_container (path_to_db, last_id_str, my_DB_last_ID_container_hash_arr[ii]);
+      |                                      ^~~~~~~~~~~
+      |                                      |
+      |                                      const char **
+C_part.c:686:65: note: expected ‘const char *’ but argument is of type ‘const char **’
+  686 | void get_hash_id_container (const char* path_to_DB, const char* id_str, char* hash_id_container)
+      |                                                     ~~~~~~~~~~~~^~~~~~
+C_part.c:2293:12: warning: implicit declaration of function ‘write’; did you mean ‘fwrite’? [-Wimplicit-function-declaration]
+ 2293 |            write(newsock, uc_int, 4);
+      |            ^~~~~
+      |            fwrite
+C_part.c:2416:19: warning: passing argument 1 of ‘snprintf’ from incompatible pointer type [-Wincompatible-pointer-types]
+ 2416 |          snprintf(last_id_str1, length1 + 1, "%d", last_id2); // по идее в последнем символе и так уже ноль должен быть
+      |                   ^~~~~~~~~~~~
+      |                   |
+      |                   const char **
+In file included from C_part.h:3,
+                 from C_part.c:1:
+/usr/include/stdio.h:354:39: note: expected ‘char * restrict’ but argument is of type ‘const char **’
+  354 | extern int snprintf (char *__restrict __s, size_t __maxlen,
+      |                      ~~~~~~~~~~~~~~~~~^~~
+C_part.c:2424:82: warning: passing argument 1 of ‘strlen’ from incompatible pointer type [-Wincompatible-pointer-types]
+ 2424 |      int union_size = strlen(hash_str) + strlen(hesh_size) + strlen(of) + strlen(last_id_str1) + 1; // +1 - это для '\0'-символа конца строки
+      |                                                                                  ^~~~~~~~~~~~
+      |                                                                                  |
+      |                                                                                  const char **
+In file included from C_part.h:6,
+                 from C_part.c:1:
+/usr/include/string.h:385:35: note: expected ‘const char *’ but argument is of type ‘const char **’
+  385 | extern size_t strlen (const char *__s)
+      |                       ~~~~~~~~~~~~^~~
+C_part.c:2426:55: warning: format ‘%s’ expects argument of type ‘char *’, but argument 7 has type ‘const char **’ [-Wformat=]
+ 2426 |         snprintf(union_str, sizeof union_str, "%s%s%s%s", hash_str, hesh_size, of, last_id_str1);
+      |                                                      ~^                            ~~~~~~~~~~~~
+      |                                                       |                            |
+      |                                                       char *                       const char **
+C_part.c: In function ‘get_hash_or_blockchain’:
+C_part.c:2801:9: warning: implicit declaration of function ‘inet_aton’ [-Wimplicit-function-declaration]
+ 2801 |     if (inet_aton(hostname, &serv_addr.sin_addr.s_addr) == 0)
+      |         ^~~~~~~~~
+C_part.c:2826:23: warning: passing argument 2 of ‘connect’ from incompatible pointer type [-Wincompatible-pointer-types]
+ 2826 |     if (connect(sock, &serv_addr, sizeof(serv_addr)) < 0)
+      |                       ^~~~~~~~~~
+      |                       |
+      |                       struct sockaddr_in *
+In file included from C_part.h:8,
+                 from C_part.c:1:
+/usr/include/x86_64-linux-gnu/sys/socket.h:126:52: note: expected ‘const struct sockaddr *’ but argument is of type ‘struct sockaddr_in *’
+  126 | extern int connect (int __fd, __CONST_SOCKADDR_ARG __addr, socklen_t __len);
+      |                                                    ^
+C_part.c:2830:24: warning: passing argument 2 of ‘connect’ from incompatible pointer type [-Wincompatible-pointer-types]
+ 2830 |   while (connect(sock, &serv_addr, sizeof(serv_addr)) < 0)
+      |                        ^~~~~~~~~~
+      |                        |
+      |                        struct sockaddr_in *
+In file included from C_part.h:8,
+                 from C_part.c:1:
+/usr/include/x86_64-linux-gnu/sys/socket.h:126:52: note: expected ‘const struct sockaddr *’ but argument is of type ‘struct sockaddr_in *’
+  126 | extern int connect (int __fd, __CONST_SOCKADDR_ARG __addr, socklen_t __len);
+      |                                                    ^
+C_part.c: In function ‘thread_func_hash_and_blockchain_server_part’:
+C_part.c:3129:10: warning: ‘return’ with no value, in function returning non-void
+ 3129 |          return;
+      |          ^~~~~~
+C_part.c:3099:8: note: declared here
+ 3099 | void * thread_func_hash_and_blockchain_server_part(void * arg)
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C_part.c:3159:9: warning: ‘return’ with no value, in function returning non-void
+ 3159 |         return;
+      |         ^~~~~~
+C_part.c:3099:8: note: declared here
+ 3099 | void * thread_func_hash_and_blockchain_server_part(void * arg)
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C_part.c: In function ‘hash_and_blockchain_server_part_function’:
+C_part.c:3348:2: warning: implicit declaration of function ‘hash_and_blockchain_server_part’; did you mean ‘hash_and_blockchain_server_part_function’? [-Wimplicit-function-declaration]
+ 3348 |  hash_and_blockchain_server_part(number_port, path_to_db);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |  hash_and_blockchain_server_part_function
+C_part.c: In function ‘func_say_hello_and_get_user_list_function’:
+C_part.c:3486:15: warning: implicit declaration of function ‘say_hello_and_get_user_list’; did you mean ‘func_say_hello_and_get_user_list_function’? [-Wimplicit-function-declaration]
+ 3486 |     int res = say_hello_and_get_user_list(struct_ip_port.ip,struct_ip_port.port, "hi\n");
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |               func_say_hello_and_get_user_list_function
+C_part.c: In function ‘say_hello_and_get_user_list’:
+C_part.c:3600:23: warning: passing argument 2 of ‘connect’ from incompatible pointer type [-Wincompatible-pointer-types]
+ 3600 |     if (connect(sock, &serv_addr, sizeof(serv_addr)) < 0)
+      |                       ^~~~~~~~~~
+      |                       |
+      |                       struct sockaddr_in *
+In file included from C_part.h:8,
+                 from C_part.c:1:
+/usr/include/x86_64-linux-gnu/sys/socket.h:126:52: note: expected ‘const struct sockaddr *’ but argument is of type ‘struct sockaddr_in *’
+  126 | extern int connect (int __fd, __CONST_SOCKADDR_ARG __addr, socklen_t __len);
+      |                                                    ^
+C_part.c:3603:25: warning: passing argument 2 of ‘connect’ from incompatible pointer type [-Wincompatible-pointer-types]
+ 3603 |   while ((connect(sock, &serv_addr, sizeof(serv_addr)) < 0) && (count_trying < 3))
+      |                         ^~~~~~~~~~
+      |                         |
+      |                         struct sockaddr_in *
+In file included from C_part.h:8,
+                 from C_part.c:1:
+/usr/include/x86_64-linux-gnu/sys/socket.h:126:52: note: expected ‘const struct sockaddr *’ but argument is of type ‘struct sockaddr_in *’
+  126 | extern int connect (int __fd, __CONST_SOCKADDR_ARG __addr, socklen_t __len);
+      |                                                    ^
+g++ -c Cpp_part.cpp -o Cpp_part.o
+In file included from /usr/include/boost/bind.hpp:30,
+                 from Cpp_part.h:56,
+                 from Cpp_part.cpp:1:
+/usr/include/boost/bind.hpp:36:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   36 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+Cpp_part.cpp: In function ‘int how_many_transaction_id(const char*, std::string*)’:
+Cpp_part.cpp:7488:19: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 7488 |             sql = "SELECT COUNT(*) from BLOCKCHAIN_TABLE";
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Cpp_part.cpp: In function ‘int return_my_user_list(const char*, user_list_and_pointer*)’:
+Cpp_part.cpp:7899:19: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 7899 |             sql = "SELECT USER_NAME from GENERAL_TABLE";
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Cpp_part.cpp: In function ‘int Clear_Blockchain_Table(const char*)’:
+Cpp_part.cpp:8364:15: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 8364 |         sql = "DELETE FROM BLOCKCHAIN_TABLE;";
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Cpp_part.cpp: In function ‘int Create_or_Enter_to_DB(const char*)’:
+Cpp_part.cpp:8427:20: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 8427 |              sql = "CREATE TABLE GENERAL_TABLE("  \
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 8428 |              "ID INTEGER PRIMARY KEY AUTOINCREMENT    NOT NULL," \
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 8429 |              "USER_NAME           TEXT    NOT NULL," \
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 8430 |              "KEY            TEXT     NOT NULL," \
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 8431 |              "KEY_SIZE        INT     NOT NULL," \
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 8432 |              "KEY_SEEK        INT     NOT NULL," \
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 8433 |              "NEW_MESSAGE        INT     NOT NULL);";
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Cpp_part.cpp:8454:20: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 8454 |              sql = "CREATE TABLE BLOCKCHAIN_TABLE("  \
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 8455 |              "ID INTEGER PRIMARY KEY AUTOINCREMENT    NOT NULL," \
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 8456 |              "TRANSACTION_ID INT     NOT NULL," \
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 8457 |              "TRANSACTION_BODY           TEXT    NOT NULL," \
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 8458 |              "TRANSACTION_SIZE            INT     NOT NULL," \
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 8459 |              "BEFORE_TRANSACTION_HASH        TEXT     NOT NULL," \
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 8460 |              "TRANSACTION_HASH        TEXT     NOT NULL);";
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Cpp_part.cpp:8480:20: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+ 8480 |              sql = "CREATE TABLE CONFIG_TABLE("  \
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 8481 |              "ID INTEGER PRIMARY KEY AUTOINCREMENT    NOT NULL," \
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 8482 |              "LAST_ANALYSED_ID INT    NOT NULL," \
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 8483 |              "LAST_AVAILABLE_ID INT    NOT NULL," \
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 8484 |              "CONFIG_BODY        TEXT     NOT NULL);";
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Cpp_part.cpp: In function ‘int update_key_file_for_user(const char*, const char*, const char*)’:
+Cpp_part.cpp:5599:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 5599 | }
+      | ^
+Cpp_part.cpp: In function ‘int create_table_for_new_user(const char*, std::string, std::string)’:
+Cpp_part.cpp:7866:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 7866 | }
+      | ^
+g++ -c Messenger.cpp -o Messenger.o
+In file included from /usr/include/boost/bind.hpp:30,
+                 from Cpp_part.h:56,
+                 from Messenger.cpp:2:
+/usr/include/boost/bind.hpp:36:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   36 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+Messenger.cpp: In function ‘int main(int, const char**)’:
+Messenger.cpp:118:41: warning: format ‘%s’ expects argument of type ‘char*’, but argument 2 has type ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} [-Wformat=]
+  118 |   printf("<use_i2p> have wrong value = %s. It my be '%s' or '%s'.\n", use_i2p, "FALSE", "TRUE");
+      |                                        ~^
+      |                                         |
+      |                                         char*
+g++    -c -o base64.o base64.cpp
+g++ C_part.o Cpp_part.o Messenger.o i2psam.o base64.o -lsqlite3 -lpthread -lssl -lcrypto -lboost_system -lcrypto++ -o Messenger

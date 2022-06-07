@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sergey/CLionProjects/The_Pied_Piper_Modules/Recieve_Transive_files_SSL_Boost_C++/from_client_to_server/ssl_server_client_files_NORM_OWN_KEYS_not_reverse/client_ssl/main.cpp
+cstdlib
+-
+iostream
+-
+boost/bind.hpp
+-
+boost/asio.hpp
+-
+boost/asio/ssl.hpp
+-
+
