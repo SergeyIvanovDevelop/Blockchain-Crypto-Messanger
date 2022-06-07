@@ -31,7 +31,7 @@ The software of the blockchain network node has an integrated messenger console 
 **Step 4**<br>
 
 4. Configure `yggdrasil` as follows:
-- You need to add the addresses of the `Yggdrasil` network nodes to the configuration file `/etc/yggdrasil.conf` (an example is in the file [yggdrasil.conf](./Support_Dir/yggdrasil.conf))
+	- You need to add the addresses of the `Yggdrasil` network nodes to the configuration file `/etc/yggdrasil.conf` (an example is in the file [yggdrasil.conf](./Support_Dir/yggdrasil.conf))
 
 **Step 5**<br>
 
