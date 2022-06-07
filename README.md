@@ -30,8 +30,8 @@ The software of the blockchain network node has an integrated messenger console 
 
 **Step 4**<br>
 
-4. Configure `yggdrasil` as follows:<br><br>
-	- You need to add the addresses of the `Yggdrasil` network nodes to the configuration file `/etc/yggdrasil.conf` (an example is in the file [yggdrasil.conf](./Support_Dir/yggdrasil.conf))
+4. Configure `yggdrasil` as follows:
+- You need to add the addresses of the `Yggdrasil` network nodes to the configuration file `/etc/yggdrasil.conf` (an example is in the file [yggdrasil.conf](./Support_Dir/yggdrasil.conf))
 
 **Step 5**<br>
 
@@ -66,9 +66,9 @@ However, it is possible to run code in program control mode using [AddressSaniti
 8. Run the `Android` application, enter the `IP` address and port of the server with `Ubuntu` OS, where the node with the messenger core is deployed, and click the `Connect` button.<br>
 
 You need to add users. For this you need to have:
-- `File-key` of the user with whom you want to communicate (you can generate such a file using the [gen_key](./gen_key) utility) by typing the command in the terminal: `./gen_key <key_size> <output_filename>`. Only ONE of the users generates a `key file` and transfers it to another person in a personal meeting or via a trusted communication channel
-- `i2p`-address of the interlocutor (receives it also during a personal meeting or via a trusted communication channel)
-- `yggdrasil`-address of the interlocutor (receives it also during a personal meeting or via a trusted communication channel)
+-`File-key` of the user with whom you want to communicate (you can generate such a file using the [gen_key](./gen_key) utility) by typing the command in the terminal: `./gen_key <key_size> <output_filename>`. Only ONE of the users generates a `key file` and transfers it to another person in a personal meeting or via a trusted communication channel
+-`i2p`-address of the interlocutor (receives it also during a personal meeting or via a trusted communication channel)
+-`yggdrasil`-address of the interlocutor (receives it also during a personal meeting or via a trusted communication channel)
 
 Next you need:
 - Place the `key file` of the interlocutor in the code directory from the `bcm-linux-console` branch
