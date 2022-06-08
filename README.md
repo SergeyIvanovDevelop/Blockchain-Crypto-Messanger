@@ -32,7 +32,7 @@ The main features of this messenger are:
 
 <p align="center">
   <a href="https://github.com/SergeyIvanovDevelop/Blockchain-Crypto-Messanger">
-    <img alt="Architecture" src="./resources/general_model.png" width="360" height="640" />
+    <img alt="Architecture" src="./resources/general_model.png" />
   </a>
 </p>
 
