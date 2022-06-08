@@ -96,6 +96,10 @@ keys = HASH_BLOCKCHAIN_1-CLIENT.dat
 The configuration code shown above describes how `i2pd` will interact with a user with `i2p` address `6g6lrmiiyx4c7rvrbsqywugsiaix4ypem4y3wizwwd7hqyqhoswa.b32.i2p` and port `6001` to accept requests for hashes of the latest transaction or an up-to-date copy of the blockchain. From our node, a connection to the given `i2p` address will be established via the `proxy-server` provided by `i2pd` when a connection request is received at `127.0.0.1:5000`.<br>
 To receive candidate messages for adding to the blockchain, the user has chosen `i2p` address `mhaseyc4bsugusuk5jdchide2na4ixffrhx2sg3jchohsv3qy5pq.b32.i2p` and port `6002`. From our host, a connection to the given `i2p` address will be established via the `proxy-server` provided by `i2pd` when a connection request is received at `127.0.0.1:7000`.<br>
 
+The above information must be entered into the files accordingly [user_list_client_port_hash_blockchain.txt](./user_list_client_port_hash_blockchain.txt) и [user_list_client_port_send_message.txt](./user_list_client_port_send_message.txt).
+
+If the software is loaded in the operating mode via `ClearNet`, then you must also write the `IP` addresses of users with whom you will need to interact in the file [user_list_client.txt](./user_list_client.txt).
+
 - In the file [Yggdrasil_addresses.txt](./Yggdrasil_addresses.txt) you need to put the `yggdrasil` address of the interlocutor. (Adding this address is optional, it is only necessary to be able to use the interlocutor as a data storage node in a distributed information store.)<br>
 
 When adding a new user through the console application, you must specify the path to the `key file` of the interlocutor and his name. After the actions described above, you can start using the messenger.
