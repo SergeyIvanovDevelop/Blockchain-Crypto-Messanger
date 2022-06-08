@@ -50,7 +50,7 @@ At the moment, a decision has been made to abolish the central server, and users
 
 <p align="center">
   <a href="https://github.com/SergeyIvanovDevelop/Blockchain-Crypto-Messanger">
-    <img alt="Architecture" src="./resources/send_message.png" width="360" height="640" />
+    <img alt="Architecture" src="./resources/send_message.png" />
   </a>
 </p>
 
@@ -58,7 +58,7 @@ At the moment, a decision has been made to abolish the central server, and users
 
 <p align="center">
   <a href="https://github.com/SergeyIvanovDevelop/Blockchain-Crypto-Messanger">
-    <img alt="Architecture" src="./resources/distr_storage.png" width="360" height="640" />
+    <img alt="Architecture" src="./resources/distr_storage.png" />
   </a>
 </p>
 
@@ -66,7 +66,7 @@ At the moment, a decision has been made to abolish the central server, and users
 
 <p align="center">
   <a href="https://github.com/SergeyIvanovDevelop/Blockchain-Crypto-Messanger">
-    <img alt="Architecture" src="./resources/file_ref.png" width="360" height="640" />
+    <img alt="Architecture" src="./resources/file_ref.png" />
   </a>
 </p>
 
@@ -74,7 +74,7 @@ At the moment, a decision has been made to abolish the central server, and users
 
 <p align="center">
   <a href="https://github.com/SergeyIvanovDevelop/Blockchain-Crypto-Messanger">
-    <img alt="Architecture" src="./resources/check_msg.png" width="360" height="640" />
+    <img alt="Architecture" src="./resources/check_msg.png" />
   </a>
 </p>
 
@@ -90,7 +90,7 @@ At the moment, a decision has been made to abolish the central server, and users
 
 <p align="center">
   <a href="https://github.com/SergeyIvanovDevelop/Blockchain-Crypto-Messanger">
-    <img alt="Architecture" src="./resources/security.png" width="360" height="640" />
+    <img alt="Architecture" src="./resources/security.png"/>
   </a>
 </p>
 
