@@ -82,7 +82,7 @@ At the moment, a decision has been made to abolish the central server, and users
 
 <p align="center">
   <a href="https://github.com/SergeyIvanovDevelop/Blockchain-Crypto-Messanger">
-    <img alt="Architecture" src="./resources/features.png" width="360" height="640" />
+    <img alt="Architecture" src="./resources/features.png"/>
   </a>
 </p>
 
