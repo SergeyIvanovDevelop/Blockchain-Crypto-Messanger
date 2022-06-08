@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://github.com/SergeyIvanovDevelop/Blockchain-Crypto-Messanger">
-    <img alt="Robot-Rolly" src="./resources/geekon-logo.png" width="300" height="450"/>
+    <img alt="Robot-Rolly" src="./resources/geekon-logo.png"/>
   </a>
 </p>
 <h1 align="center">
   Blockchain Crypto Messanger "Geekon"
 </h1>
 
-## Blockchain Crypto Messanger &middot; [![GitHub license](https://img.shields.io/badge/license-CC%20BY--NC--SA%203.0-blue)](./LICENSE) [![Java](https://img.shields.io/badge/Java-SE8-blue)](https://www.java.com/) [Android Studio](https://img.shields.io/badge/IDE-Android%20Studio-lightgrey)](https://developer.android.com/studio) [![Python](https://img.shields.io/badge/language-Python-critical)](https://www.python.org/) [![C](https://img.shields.io/badge/language-C-yellow)](https://www.iso.org/standard/74528.html) [![C++](https://img.shields.io/badge/language-C%2B%2B-yellowgreen)](https://isocpp.org/) [![SQLite](https://img.shields.io/badge/DB-SQLite-blue)](https://www.sqlite.org/index.html) [![Address Sanitizer](https://img.shields.io/badge/safety-Address%20Sanitizer-9cf)](https://github.com/google/sanitizers/wiki/AddressSanitizer) [![I2Pd](https://img.shields.io/badge/anonymity-i2pd-success)](https://i2pd.website/) [![Yggdrasil](https://img.shields.io/badge/mesh-yggdrasil-lightgrey)](https://yggdrasil-network.github.io/) [![LinkedIn](https://img.shields.io/badge/linkedin-Sergey%20Ivanov-blue)](https://www.linkedin.com/in/sergey-ivanov-33413823a/) [![Telegram](https://img.shields.io/badge/telegram-%40SergeyIvanov__dev-blueviolet)](https://t.me/SergeyIvanov_dev) ##
+## Blockchain Crypto Messanger &middot; [![GitHub license](https://img.shields.io/badge/license-CC%20BY--NC--SA%203.0-blue)](./LICENSE) [![Java](https://img.shields.io/badge/Java-SE8-blue)](https://www.java.com/) [![Android Studio](https://img.shields.io/badge/IDE-Android%20Studio-lightgrey)](https://developer.android.com/studio) [![Python](https://img.shields.io/badge/language-Python-critical)](https://www.python.org/) [![C](https://img.shields.io/badge/language-C-yellow)](https://www.iso.org/standard/74528.html) [![C++](https://img.shields.io/badge/language-C%2B%2B-yellowgreen)](https://isocpp.org/) [![SQLite](https://img.shields.io/badge/DB-SQLite-blue)](https://www.sqlite.org/index.html) [![Address Sanitizer](https://img.shields.io/badge/safety-Address%20Sanitizer-9cf)](https://github.com/google/sanitizers/wiki/AddressSanitizer) [![I2Pd](https://img.shields.io/badge/anonymity-i2pd-success)](https://i2pd.website/) [![Yggdrasil](https://img.shields.io/badge/mesh-yggdrasil-lightgrey)](https://yggdrasil-network.github.io/) [![LinkedIn](https://img.shields.io/badge/linkedin-Sergey%20Ivanov-blue)](https://www.linkedin.com/in/sergey-ivanov-33413823a/) [![Telegram](https://img.shields.io/badge/telegram-%40SergeyIvanov__dev-blueviolet)](https://t.me/SergeyIvanov_dev) ##
 
 This repository contains the code and configuration for deploying and running the `Blockchain Crypto Messanger` project, which is a node of the blockchain network.
 
