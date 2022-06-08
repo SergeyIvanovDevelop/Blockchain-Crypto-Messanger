@@ -1,105 +1,133 @@
 <p align="center">
-  <a href="https://github.com/SergeyIvanovDevelop/Robot-Rolly">
-    <img alt="Robot-Rolly" src="./resources/logo.png" width="300" height="450"/>
+  <a href="https://github.com/SergeyIvanovDevelop/Blockchain-Crypto-Messanger">
+    <img alt="Robot-Rolly" src="./resources/geekon-logo.png" width="300" height="450"/>
   </a>
 </p>
 <h1 align="center">
-  Robot Rolly
+  Blockchain Crypto Messanger "Geekon"
 </h1>
 
-## Robot-Rolly &middot; [![GitHub license](https://img.shields.io/badge/license-CC%20BY--NC--SA%203.0-blue)](./LICENSE) [![Python](https://img.shields.io/badge/python-3.6-red)](https://www.python.org/) [![Java](https://img.shields.io/badge/Java-SE8-blue)](https://www.java.com/) [![RPI3B+](https://img.shields.io/badge/rpi-3B%2B-yellow)](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/) [![Android Studio](https://img.shields.io/badge/IDE-Android%20Studio-lightgrey)](https://developer.android.com/studio) [![ROS](https://img.shields.io/badge/platform-ROS-critical)](https://www.ros.org/) [![LinkedIn](https://img.shields.io/badge/linkedin-Sergey%20Ivanov-blue)](https://www.linkedin.com/in/sergey-ivanov-33413823a/) [![Telegram](https://img.shields.io/badge/telegram-%40SergeyIvanov__dev-blueviolet)](https://t.me/SergeyIvanov_dev) ##
+## Blockchain Crypto Messanger &middot; [![GitHub license](https://img.shields.io/badge/license-CC%20BY--NC--SA%203.0-blue)](./LICENSE) [![Java](https://img.shields.io/badge/Java-SE8-blue)](https://www.java.com/) [Android Studio](https://img.shields.io/badge/IDE-Android%20Studio-lightgrey)](https://developer.android.com/studio) [![Python](https://img.shields.io/badge/language-Python-critical)](https://www.python.org/) [![C](https://img.shields.io/badge/language-C-yellow)](https://www.iso.org/standard/74528.html) [![C++](https://img.shields.io/badge/language-C%2B%2B-yellowgreen)](https://isocpp.org/) [![SQLite](https://img.shields.io/badge/DB-SQLite-blue)](https://www.sqlite.org/index.html) [![Address Sanitizer](https://img.shields.io/badge/safety-Address%20Sanitizer-9cf)](https://github.com/google/sanitizers/wiki/AddressSanitizer) [![I2Pd](https://img.shields.io/badge/anonymity-i2pd-success)](https://i2pd.website/) [![Yggdrasil](https://img.shields.io/badge/mesh-yggdrasil-lightgrey)](https://yggdrasil-network.github.io/) [![LinkedIn](https://img.shields.io/badge/linkedin-Sergey%20Ivanov-blue)](https://www.linkedin.com/in/sergey-ivanov-33413823a/) [![Telegram](https://img.shields.io/badge/telegram-%40SergeyIvanov__dev-blueviolet)](https://t.me/SergeyIvanov_dev) ##
 
-This repository contains the code and configuration for deploying and running the `Robot Rolly` project, which is a hardware/software assistant robot.
+This repository contains the code and configuration for deploying and running the `Blockchain Crypto Messanger` project, which is a node of the blockchain network.
 
 The project is composite and includes the following components:
-- Server side (`ROS`, `Python`, `Java`)
-- RPI3B+ part (`ROS`, `Python`)
-- Android part (`Android Studio`, `Java`)
+- BCM-Linux-Console (`C`, `C++`, `Python`, `I2Pd`, `Yggdrasil`)
+- Android-Client (`Android Studio`, `Java`)
 
-**Functional diagram**<br>
+The main features of this messenger are:
+- There is no need for miners to make a decision in the consensus process
+- Solved the problem* of the ever-growing size of the blockchain (* - it periodically resets when a certain number of transactions is reached)
+- Encryption using one-time pads is used (i.e. even quantum computers will not be able to decrypt messages ever entered the blockchain)
+- Solved the need for a constant key exchange-one-time pads (only a one-time key exchange is needed) thanks to a distributed data storage system (more details will be described in a future article or read the source code)
+- Added implementation of distributed data storage running on top of `Yggdrasil mesh network (SSL + ipv6)`
+- Added the ability to put large files in a distributed storage, create small link files on them and send them on the blockchain, and the recipient, if necessary, will be able to request them from the distributed storage
+- Added the ability to remotely control the node without losing the level of security (encryption using one-time pads)
+- Anonymity in the project is provided by the blockchain network, as well as the `i2p` network.
+- All information about the node is concentrated in the `SQLite` database encrypted with `AES-256` and, if necessary, transferring the messenger to another device will not be difficult.
+- Added basic protection against `keylogger` when entering a password from the database.
+
+
+**General functional model**<br>
 
 <p align="center">
-  <a href="https://github.com/SergeyIvanovDevelop/Robot-Rolly">
-    <img alt="Architecture" src="./resources/architecture.png" />
+  <a href="https://github.com/SergeyIvanovDevelop/Blockchain-Crypto-Messanger">
+    <img alt="Architecture" src="./resources/general_model.png" width="360" height="640" />
   </a>
 </p>
 
-
-**Circuit diagram**<br>
+**Network architecture**<br>
 
 <p align="center">
-  <a href="https://github.com/SergeyIvanovDevelop/Robot-Rolly">
-    <img alt="Architecture" src="./resources/color.png" width="360" height="640" />
+  <a href="https://github.com/SergeyIvanovDevelop/Blockchain-Crypto-Messanger">
+    <img alt="Architecture" src="./resources/network_arch.png" />
   </a>
-   <a href="https://github.com/SergeyIvanovDevelop/Robot-Rolly">
-    <img alt="Architecture" src="./resources/black-white.png" width="360" height="640" />
+</p><br>
+
+At the moment, a decision has been made to abolish the central server, and users who want to communicate must exchange address and key information in person or through a trusted communication channel.<br>
+
+**Sending message**<br>
+
+<p align="center">
+  <a href="https://github.com/SergeyIvanovDevelop/Blockchain-Crypto-Messanger">
+    <img alt="Architecture" src="./resources/send_message.png" width="360" height="640" />
   </a>
 </p>
 
-## :desktop_computer: Server part of the project ##
-
-This part of the project will be responsible for performing computationally expensive operations, such as face recognition, speech recognition and synthesis, etc.
-
-Full list of features:
-- `Robot Rolly` platform configuration update
-- Web news/weather parsing
-- Speech recognition (offline)
-- Speech synthesis (offline)
-- Face recognition and user identification (offline)
-- Receiving information from the `Android` part of the software via `WiFi`
-
-
-## :computer: RPI3B+ part of the project ##
-
-This part of the project will be responsible for detecting obstacles, controlling the chassis of the robot's hardware platform, recording voice commands and playing audio files, etc.
-
-Full list of features:
-- Photographing
-- Video filming
-- Audio recording
-- Carrying out training according to a given scenario
-- Play reminders
-- Play audio files
-- Time playback
-- Reading news/weather sent by the server part of the software
-- Chassis control of the robot by voice commands recognized by the server part of the software/commands received by the server part via `WiFi`/commands received by `RPI3B+` via `Bluetooth` from an `Android` device
-- Reproduction of the results of identification by face recognition, carried out by the server part of the software
-- Update configuration of `RPI3B+` part received from server part via `WiFi` or from `Android` part via `Bluetooth`
-
-## :iphone: Android part of the project ##
-
-This part of the project will be responsible for configuring the robot (entering trusted persons, setting training modes, setting reminders, video recording parameters, etc.) and transmitting commands to control the robot's chassis via `WiFi`/`Bluetooth`.
-
-Full list of features:
-- Adding new users whose commands the robot `Rolly` will execute (name and photo of the person)
-- Workout settings (the robot can be used as a personal fitness trainer)
-- Add reminder
-- Choice of voice (male / female) of the robot
-- Robot chassis control via `WiFi`/`Bluetooth`
-
-**:framed_picture: Illustrations:**<br>
+**Functioning of distributed storage**<br>
 
 <p align="center">
-<img src="./resources/android_icon.jpeg" />
-</p>
-<p align="center">
-    <img src="./resources/android_1.png" width="180" height="320" />
-    <img src="./resources/android_2.png" width="180" height="320"/>
-    <img src="./resources/android_3.png" width="180" height="320"/>
-</p>
-<p align="center">
-    <img src="./resources/android_4.png" width="180" height="320"/>
-    <img src="./resources/android_5.png" width="180" height="320"/>
-    <img src="./resources/android_6.png" width="180" height="320"/>
+  <a href="https://github.com/SergeyIvanovDevelop/Blockchain-Crypto-Messanger">
+    <img alt="Architecture" src="./resources/distr_storage.png" width="360" height="640" />
+  </a>
 </p>
 
+**Reference file structure**<br>
+
+<p align="center">
+  <a href="https://github.com/SergeyIvanovDevelop/Blockchain-Crypto-Messanger">
+    <img alt="Architecture" src="./resources/file_ref.png" width="360" height="640" />
+  </a>
+</p>
+
+**Checking messages addressed to a user**<br>
+
+<p align="center">
+  <a href="https://github.com/SergeyIvanovDevelop/Blockchain-Crypto-Messanger">
+    <img alt="Architecture" src="./resources/check_msg.png" width="360" height="640" />
+  </a>
+</p>
+
+**Key features of BCM**<br>
+
+<p align="center">
+  <a href="https://github.com/SergeyIvanovDevelop/Blockchain-Crypto-Messanger">
+    <img alt="Architecture" src="./resources/features.png" width="360" height="640" />
+  </a>
+</p>
+
+**Security level**<br>
+
+<p align="center">
+  <a href="https://github.com/SergeyIvanovDevelop/Blockchain-Crypto-Messanger">
+    <img alt="Architecture" src="./resources/security.png" width="360" height="640" />
+  </a>
+</p>
+
+## :desktop_computer: BCM-Linux-Console part of the project ##
+
+This part of the project is its core and is designed to deploy a node in the blockchain network and communicate with other network participants.
+
+Full list of provided functionality:
+- Deployment of a blockchain network node participating in the consensus process, in which there is no need for miners and complex calculations
+- Providing the console interface of the messenger
+- Ability to add users to the messenger, change user keys
+- Ability to change node management to a remote (`Android` device)
+- Encryption of information using one-time pads (protection against quantum cryptanalysis)
+- The ability to use a distributed data storage in the Yggdrasil `mesh network`, as well as act as a member of this storage
+- Periodic blockchain update
+- DB encryption `AES-256`
+- Using the anonymous network `i2p`
+- Additional protection against timing attacks
+
+## :iphone: Android-Client part of the project ##
+
+This part of the project is its core and is designed to deploy a node in the blockchain network and communicate with other network participants.
+
+Full list of provided functionality:
+- Possibility of remote control of a blockchain network node via `WiFi` while maintaining the level of security of transmitted information (encryption using one-time pads)
 
 **:clapper: Example using (GIF):**<br>
 
-This animation demonstrates scenarios for using the Robot Rolly.<br>
+This animation demonstrates scenarios for using the BCM-Linux-Console.<br>
 <p align="center">
-  <img src="./resources/Rolly.gif" alt="animated" />
+  <img src="./resources/Geekon-Linux.gif" alt="animated" />
+</p>
+
+This animation demonstrates scenarios for using the Android-Client.<br>
+<p align="center">
+  <img src="./resources/Geekon-Android.gif" alt="animated" />
 </p>
 
 ### :bookmark_tabs: Licence ###
-Robot Rolly is [CC BY-NC-SA 3.0 licensed](./LICENSE).
+Blockchain Crypto Messanger "Geekon" is [CC BY-NC-SA 3.0 licensed](./LICENSE).
