@@ -1,0 +1,61 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+#include <sstream>
+#include <vector>
+using namespace std;
+
+
+
+
+int main()
+{
+    cout<<"Hello World";
+
+
+
+    //Перевод туда
+    std::stringstream ss;
+    int data_length = 10;
+    unsigned char data [data_length];
+    for (int i=0;i<data_length;i++)
+        data[i] = i+10;
+    for(int i=0; i<data_length; ++i)
+        ss << std::hex << "0x" << (int)data[i] << "|";
+    std::string mystr = ss.str();
+    std::cout << "mystr = ~" << mystr << "~" <<std::endl;
+    fflush(stdout);
+    
+    
+    //Перевод обратно
+    int count_symbol = 0;
+    int count_bytes = 0;
+    std::vector<unsigned char> buffer;
+    while (mystr[count_symbol] != '\0')
+    {
+        unsigned char one_symbol;
+        std::string one_symbol_in_str = "";
+        while(mystr[count_symbol] != '|')
+        {
+            one_symbol_in_str = one_symbol_in_str + mystr[count_symbol];
+            count_symbol++;
+        }
+        one_symbol = stoi(one_symbol_in_str,nullptr,16);
+        buffer.push_back(one_symbol);
+        count_symbol++;
+    }
+    
+    for (int i = 0; i < buffer.size(); i++)
+        std::cout << "buffer[" << i << "] = " << (int)buffer[i] << std::endl;
+    
+    fflush(stdout);
+    
+    
+    return 0;
+}

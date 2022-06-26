@@ -1,0 +1,5 @@
+-fsanitize=address -g -fno-omit-frame-pointer -fno-optimize-sibling-calls
+dpkg -L llvm | grep symbolize
+ASAN_SYMBOLIZER_PATH=$PATH ./main
+/usr/bin/llvm-symbolizer
+/usr/share/man/man1/llvm-symbolizer.1.gz

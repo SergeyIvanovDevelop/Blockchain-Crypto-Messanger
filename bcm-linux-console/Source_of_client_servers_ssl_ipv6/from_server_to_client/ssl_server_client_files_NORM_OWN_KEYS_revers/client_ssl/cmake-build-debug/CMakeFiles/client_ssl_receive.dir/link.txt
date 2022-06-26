@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/client_ssl_receive.dir/main.cpp.o  -o client_ssl_receive -lcrypto -lssl -lboost_system -lpthread 
